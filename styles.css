@@ -1,0 +1,6 @@
+/* css for hero section */
+.hero{
+    height: 5em;
+    background:linear-gradient(rgba(0, 0, 0, 0.412),rgba(0, 0, 0, 0.401)) ,url(assests/grunge-background.jpg) repeat center /cover;
+    color: white;
+}
