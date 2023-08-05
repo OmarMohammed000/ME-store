@@ -3,10 +3,20 @@
 }
 /* css for hero section */
 .hero{
-    height: 800px;
+    height: 65vb;
     background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(assests/grunge-background.jpg) repeat center /cover;
     color: white;
+    
 }
-/* h2.tagLine{
-    color:;
-} */
+.hero-contant{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content:space-around;
+}
+.heroLink{
+    color: #ffffff;
+}
+.heroLink:hover{
+    color: #eb2121;
+}
