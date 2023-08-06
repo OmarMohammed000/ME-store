@@ -3,8 +3,8 @@
 }
 /* css for hero section */
 .hero{
-    height: 720px;
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(assests/grunge-background.jpg) repeat center /cover;
+    height: 1000px;
+    background:linear-gradient(rgba(0, 0, 0,0),rgba(0, 0, 0, 0)) ,url(assests/hero2.jpg) no-repeat center /cover;
     color: white;
     
 }
@@ -45,6 +45,10 @@ justify-content:space-around;
   .img{
     width: 500px;
     height: 300px;
-    
   }  
 }
+/* css for the product section */
+/* .img-size{
+    height: 300px;
+    width: 300px;
+} */
