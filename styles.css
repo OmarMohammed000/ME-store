@@ -3,7 +3,7 @@
 }
 /* css for hero section */
 .hero{
-    height: 65vb;
+    height: 720px;
     background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(assests/grunge-background.jpg) repeat center /cover;
     color: white;
     
@@ -19,4 +19,32 @@ justify-content:space-around;
 }
 .heroLink:hover{
     color: #eb2121;
+}
+@media (max-width:820px) {
+    .hero{
+        height: 93.3vb;
+    }
+    .tagLine{
+        font-size:25px;
+    }
+    .hero h4{
+        font-size: 18px;
+    }
+    .hero-contant{
+        
+        flex-direction: column;
+        padding-top:40px;
+        
+        }
+    .heroLink{
+        padding-top:20px ;
+    }
+    
+}
+@media (max-width:1000px ) and  (min-width:820px)  {
+  .img{
+    width: 500px;
+    height: 300px;
+    
+  }  
 }
