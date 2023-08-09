@@ -48,7 +48,16 @@ justify-content:space-around;
   }  
 }
 /* css for the product section */
-/* .img-size{
-    height: 300px;
-    width: 300px;
-} */
+@media (min-width:1440px) {
+    .products{
+        height: 610px;
+    }
+}
+
+.Phover :hover{
+    margin: 2px 0px 2px 0px; 
+   
+}
+.Thover :hover{
+    text-decoration: underline;
+}
