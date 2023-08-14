@@ -1,7 +1,7 @@
 let span=document.querySelector("#toTop")
 
 window.onscroll=function(){
-    console.log(this.scrollY);
+    
     if(this.scrollY >= 1000){
     span.classList.add("vis");
     }
