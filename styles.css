@@ -1,6 +1,19 @@
+/* css for the bottom to top button */
+#toTop{
+    position: fixed;
+    bottom:10px;
+    right: -45px;
+    transition: .2s;
+    
+}
+#toTop.vis{
+    right: 20px;
+   
+}
 .navbar{
     background-color: #f6f0da;
 }
+/*  */
 /* css for hero section */
 .hero{
     height: 1000px;
@@ -48,11 +61,12 @@ justify-content:space-around;
   }  
 }
 /* css for the product section */
-@media (min-width:1440px) {
+@media (min-width:800px) {
     .products{
         height: 620px;
     }
 }
+
 .Phover{
     text-decoration: none;
 }
@@ -63,6 +77,12 @@ justify-content:space-around;
 .Phover p:hover{
     text-decoration: underline;
    
+}
+/* css for explintion  */
+@media (max-width:760px) {
+    .overflowing{
+        max-width: 385px;
+    }
 }
 /* css for the footer */
 footer{
