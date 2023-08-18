@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #f6f0da;
+    }
+    footer{
+    position: relative;
+    bottom: 0;
+    background-color: #f6f0da;
+    }
+    .contant{
+        height: 1500px;
+    }
+    .img{
+        border: 2px solid rgba(220, 20, 60, 0.373);
+    }
+    .img:hover {
+        padding: 5px;
+        border: 2px solid crimson;
+        cursor: pointer;
+    }
+    .img.active{
+        border: 2px solid crimson; 
+    }
