@@ -2,3 +2,9 @@
 .navbar{
     background-color: #f6f0da;
 }
+/* css for the footer  */
+footer{
+    position:fixed;
+    bottom: 0;
+    background-color: #f6f0da;
+    }
