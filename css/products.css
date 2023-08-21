@@ -2,9 +2,31 @@
 .navbar{
     background-color: #f6f0da;
 }
+/* css for the product section */
+@media (min-width:800px) {
+    .products{
+        height: 620px;
+        
+    }
+    .Long-products{
+        height: 900px;
+    }
+}
+
+.Phover{
+    text-decoration: none;
+}
+.Phover :hover{
+    margin: 2px 0px 2px 0px; 
+   
+}
+.Phover p:hover{
+    text-decoration: underline;
+   
+}
 /* css for the footer  */
 footer{
-    position:fixed;
+    position:relative;
     bottom: 0;
     background-color: #f6f0da;
     }
