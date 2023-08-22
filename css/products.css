@@ -5,11 +5,15 @@
 /* css for the product section */
 @media (min-width:800px) {
     .products{
-        height: 620px;
+        height: 420px;
+        
+    }
+    .bproducts{
+        height: 570px;
         
     }
     .Long-products{
-        height: 900px;
+        height: 780px;
     }
 }
 
