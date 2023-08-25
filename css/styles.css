@@ -79,9 +79,9 @@ justify-content:space-around;
    
 }
 /* css for explintion  */
-@media (max-width:760px) {
+@media (max-width:1460px) {
     .overflowing{
-        max-width: 385px;
+        max-width:260px;
     }
 }
 /* css for the footer */
