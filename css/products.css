@@ -2,18 +2,27 @@
 .navbar{
     background-color: #f6f0da;
 }
+/* css for the gifts section */
+.img{
+    border: 2px solid rgba(220, 20, 60, 0.373);
+}
+.img:hover {
+    padding: 5px;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+.img.active{
+    border: 2px solid crimson; 
+}
 /* css for the product section */
 @media (min-width:800px) {
     .products{
-        height: 420px;
+        height: 440px;
         
     }
-    .bproducts{
-        height: 570px;
-        
-    }
+   
     .Long-products{
-        height: 780px;
+        height: 810px;
     }
 }
 
@@ -30,7 +39,7 @@
 }
 /* css for the footer  */
 footer{
-    position:relative;
+    position:static;
     bottom: 0;
     background-color: #f6f0da;
     }

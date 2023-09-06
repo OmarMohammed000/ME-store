@@ -1,0 +1,12 @@
+/*  css for the navgation  */
+.navbar{
+    background-color: #f6f0da;
+}
+
+
+/* css for the footer  */
+footer{
+    position:relative;
+    bottom: 0;
+    background-color: #f6f0da;
+    }
